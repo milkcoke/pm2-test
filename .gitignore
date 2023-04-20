@@ -1,0 +1,8 @@
+Dockerfile
+.dockerignore
+dist
+.idea
+node_modules
+install.sh
+*.iml
+logs
