@@ -28,8 +28,7 @@ module.exports = {
         name   : "gc_app",
         script : "dist/memory_leak.js",
         exec_mode: 'cluster',
-        node_args: '--trace-gc --expose-gc',
-        max_old_space_size: '50M',
+        node_args: '--trace-gc --expose-gc --max-old-space-size=50',
         instances: 2,
         watch: ['dist'],
     }
